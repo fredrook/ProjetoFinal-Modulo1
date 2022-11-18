@@ -80,5 +80,14 @@ const dataBaseProdutos = [
       description:"Cavalier da Ordem Jedy",
       addCart: "Adicionar ao carrinho",
   },
+  {
+    id: 10,
+    nameItem: "Aiolos",
+    img: "./img/Sagitario.png",
+    price: 599.09.toFixed(2),
+    category:"CDZ",
+    description:"Aiolos de Sagitário",
+    addCart: "Adicionar ao carrinho",
+  }
 ];
 export default dataBaseProdutos;

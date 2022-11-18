@@ -14,6 +14,7 @@ a {
 }
 
 header {
+    width: 100%;
     height: 70px;
     background-color: silver;
     display: flex;
@@ -49,19 +50,17 @@ header nav ul li a {
 .divConteiner {
     background-color: rgb(255, 255, 255);
     display: flex;
-    width: 90%;
     justify-content: center;
+    width: 99%;;
     margin-top: 30px;
-
-
 }
 
 .cardsConteiner {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1000px;
-    height: auto;
+    width: 100%;
     background-color: rgb(255, 255, 255);
 
 }
@@ -71,11 +70,11 @@ header nav ul li a {
     flex-direction: column;
     align-items: flex-start;
     background-color: rgba(225, 225, 225, 0.779);
-    width: 250px;
+    width: 270px;
     height: 350px;
     border-radius: 4px;
     border: 3px solid rgb(213, 212, 212);
-    margin-top: 52px;
+    margin-top: 20px;
     margin-left: 30px;
     margin-bottom: 30px;    
 }
@@ -222,8 +221,8 @@ span {
 }
 .carrinhoCompAside {
     background-color: rgb(255, 255, 255);
-    width: 400px;
-    height: 460px;
+    width: 600px;
+    height: 726px;
     border-radius: 4px;
     border: 3px solid;
     color: black;
@@ -323,9 +322,6 @@ span {
     transition: all 0.2s ease;
 }
 
-.carrinho{
-    
-}
 
 .carrinho img {
     width: 80px;
@@ -354,13 +350,16 @@ span {
 }
 
 .precoTotal{
-    width: 90px;
+    width: 160px;
     height: 25px;
     display: flex;
     align-items: center;    
     background-color: rgb(239, 239, 239);
     border-radius: 4px;
     border: 1.5px solid rgb(213, 212, 212);
+    margin-top: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .quantidd{
@@ -373,6 +372,7 @@ span {
     background-color: rgb(239, 239, 239);
     border: 1.5px solid rgb(213, 212, 212);
     border-radius: 4px;
+    margin-top: 2px;
 }
 
 .btnAddContainer{
@@ -394,6 +394,6 @@ span {
 #rodapeValores{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-
+    position: fixed;
+    top: 91%;
 }
